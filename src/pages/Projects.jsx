@@ -1,4 +1,3 @@
-// src/pages/Projects.jsx
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 
@@ -12,7 +11,7 @@ function Projects() {
                         title="Virtual Campus"
                         description="An app made in collaboration with LusoInfo, for the DGE (Direcao Geral de Educacao). Allows the user to take a virtual 360 tour through the school campus and other locations."
                         technologies="React, Unity for WebGL"
-                        imageUrl="/assets/project1.jpg"
+                        imageUrl={`${process.env.PUBLIC_URL}/assets/project1.jpg`}
                         link="https://github.com/Antonio-CMota/VirtualCampus"
                     />
                 </div>
@@ -21,7 +20,7 @@ function Projects() {
                         title="Rigidbody Recreation"
                         description="A simple recreation of a rigidbody utilizing realistic gravity and force calculations."
                         technologies="Unity"
-                        imageUrl="/assets/project2.jpg"
+                        imageUrl={`${process.env.PUBLIC_URL}/assets/project2.jpg`}
                         link="https://github.com/Antonio-CMota/RigidbodyRecreation"
                     />
                 </div>
@@ -30,7 +29,7 @@ function Projects() {
                         title="[WIP] Labyrinth Marble Game"
                         description="A recreation of the traditional marble labyrinth game featuring procedurally generated levels and gyroscope controls for mobile."
                         technologies="Unity for mobile, windows, WebGL"
-                        imageUrl="/assets/project3.jpg"
+                        imageUrl={`${process.env.PUBLIC_URL}/assets/project3.jpg`}
                         link="https://github.com/your-repo-link-3"
                     />
                 </div>
@@ -39,7 +38,7 @@ function Projects() {
                         title="[WIP] Classic Chess"
                         description="A simple chess game featuring an implementation of the Stockfish AI."
                         technologies="Unity for mobile, windows, WebGL"
-                        imageUrl="/assets/project4.jpg"
+                        imageUrl={`${process.env.PUBLIC_URL}/assets/project4.jpg`}
                         link="https://github.com/your-repo-link-4"
                     />
                 </div>
