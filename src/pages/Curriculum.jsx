@@ -1,4 +1,3 @@
-// src/pages/Curriculum.jsx
 import React from 'react';
 
 function Curriculum() {
@@ -7,7 +6,7 @@ function Curriculum() {
             <h1 className="text-4xl font-bold text-white mb-4">Curriculum</h1>
             <div className="flex items-center mb-6">
                 <img
-                    src="/assets/cvphoto.jpg"
+                    src={`${process.env.PUBLIC_URL}/assets/cvphoto.jpg`} // Updated image path
                     alt="António Cunha da Mota"
                     className="w-32 h-32 rounded-full object-cover mr-4" // Adjusted styles for the image
                 />
@@ -51,7 +50,6 @@ function Curriculum() {
                 <p>
                     Trabalhou dentro de uma equipa dinâmica focada no desenvolvimento de jogos educativos, desde a conceptualização inicial de jogos até a produção de documentos e criação de protótipos.
                 </p>
-
 
                 <h2 className="text-2xl font-bold mb-2 mt-4">Programming Skills</h2>
                 <ul className="list-disc list-inside">
