@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Projects from './pages/Projects';
 import Home from './pages/Home';
@@ -14,7 +14,7 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/Projects" element={<Projects />} />
+                <Route path="/projects" element={<Projects />} />
                 <Route path="/curriculum" element={<Curriculum />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />

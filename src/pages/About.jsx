@@ -3,7 +3,7 @@ import React from 'react';
 
 function About() {
     return (
-        <div className="bg-charcoal p-6 min-h-screen">
+        <div className="bg-charcoal p-6 min-h-screen pt-16"> {/* Added pt-16 */}
             <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
             <p className="text-light-gray mb-6">
                 This is the about page where you can share more about yourself. Discuss your background, experience, and what motivates you in your career.

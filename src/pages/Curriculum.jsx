@@ -1,14 +1,15 @@
+// src/pages/Curriculum.jsx
 import React from 'react';
 
 function Curriculum() {
     return (
-        <div className="bg-charcoal p-6 min-h-screen">
+        <div className="bg-charcoal p-6 min-h-screen pt-16"> {/* Added pt-16 for navbar spacing */}
             <h1 className="text-4xl font-bold text-white mb-4">Curriculum</h1>
             <div className="flex items-center mb-6">
                 <img
-                    src={`${process.env.PUBLIC_URL}/assets/cvphoto.jpg`} // Updated image path
+                    src="/assets/cvphoto.jpg"
                     alt="António Cunha da Mota"
-                    className="w-32 h-32 rounded-full object-cover mr-4" // Adjusted styles for the image
+                    className="w-32 h-32 rounded-full object-cover mr-4"
                 />
                 <div className="text-light-gray">
                     <h2 className="text-2xl font-bold">António Maria Cunha da Mota</h2>
